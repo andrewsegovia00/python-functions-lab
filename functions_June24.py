@@ -5,10 +5,6 @@ def sum_to(n):
 
 # 2
 def largest(numbers):
-    return max(numbers)
-
-
-def largest(numbers):
     largest = 0
     for number in numbers:
         if number > largest:
